@@ -1,0 +1,5 @@
+1) The hello changes to Gello. My guess would be that each number number in the mem[] corresponds to a specific character.
+2) The hello changes to ello. My guess is that the code changes the text to a cockney accent. Either that or it moves the window that we are seeing so that the h is not included in the picture.
+3) I changed yaml[16] to 47. This made the text disappear entirely.
+4) I lowered each of the mem[]= by one except mem[15]. This changed the text to gdkkn.
+5) I changed mem[15]=1. This made the text disappear entirely.
