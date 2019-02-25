@@ -1,0 +1,16 @@
+1) 
+Range r;
+int * prp = &r.pos
+int * prl = &r.len
+*prp = 10
+*prl = 2
+2) 
+int hex [16] = {};
+for (i=0, i<16, i++){
+    hex_arr[i]=i
+    }
+3)
+int matrix [3][5] = {}
+for (i=0, i<15, i++){
+    matrix[i]=i
+    }
