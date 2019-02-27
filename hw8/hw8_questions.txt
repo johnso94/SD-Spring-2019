@@ -1,2 +1,4 @@
 1) 
 It happened this way because the shorts were unsigned and 4-5 is a negative so rather than going negative, it went right back up to the highest number and then substracted the remaining -1.
+2) The index is equal to the exponent minus 1.
+3) z1 = 0, z2 = 0

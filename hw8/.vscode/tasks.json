@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "compile",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g", "-Wall", "-std=c++11", "sd_fun.o", "str_util.o", "${relativeFile}"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
