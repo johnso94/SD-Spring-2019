@@ -1,0 +1,2 @@
+A. It makes a new integer pointer pointing to data, then retrieves the information inside of data and adds 1 to it.
+B. You could set up a function that breaks when it runs into either a pointer that goes nowhere or gets a false value.
