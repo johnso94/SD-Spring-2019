@@ -1,0 +1,4 @@
+1)It is acting like an array with the actual values stored somewhere else and being accessed through the memory addres.
+2) I rant into problems when trying to create 10000000000000000000 ints.
+3) You can see the difference between a a pointer to a single value and one to a sequence in how the values are deleted, how the index in p1 needs to be specified, in how the values its pointing to are set up, and in how the new int is established.
+4) Now you can use p0 to access members of the array but not p1. if you try to print p1 you get 0 as a result.
