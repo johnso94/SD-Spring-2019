@@ -18,17 +18,6 @@ int main(){
     int x, y, range;
     unsigned char * data;
     data = read_ppm(fname, x, y, range);
-    for(int i = 0; i < 3*x*y; i++){
-        int n = 0;
-        n += data[i];
-        if (i % 6 == 2){
-            n = n/3;
-            data[i] = n;
-            data[i-1] = n;
-            data[i-2] = n;
-        }
-    }
     write_ppm(fname, x, y, range, data);
-
     delete [] data;
 }
