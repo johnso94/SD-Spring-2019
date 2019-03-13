@@ -1,0 +1,4 @@
+2) Having your own datatype means that you can create any type of object that you want.
+3) You could create a hundred movies at once by using dynamic allocation.
+4) It allows structure to get information from other structures.
+6) the dusty color would be set at 3 and change to 6.
