@@ -1,11 +1,5 @@
-image: gcc:latest
-test:
-  before_script:
-    - apt-get update && apt-get install python3-setuptools python3-dev -y
-  script:
-    - git clone https://github.com/StoDevX/cs251-toolkit.git
-    - cd cs251-toolkit
-    - git checkout fix-cs251tkignore
-    - python3 setup.py develop
-    - cd ..
-    - cs251tk --ci
+image: stodevx/cs251-toolkit:latest
+build:
+    stage: build
+    script:
+        - cs251tk --ci --skip-web-compile
