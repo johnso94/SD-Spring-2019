@@ -1,0 +1,2 @@
+1) we use sz because we want to have the remove_tail run a number of times equal to the original size but the size of the LinkedList is decreaing so we have to save the original size as something else.
+
