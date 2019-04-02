@@ -3,6 +3,7 @@
 using namespace std;
 
 int main() {
+<<<<<<< HEAD
     ofstream f("output.txt");
 
     f << "Testing" << endl;
@@ -15,4 +16,18 @@ int main() {
     g.close();
 
     cout << message << endl;
+=======
+
+    ofstream f("output.txt");
+
+    f << "1 2" << endl;
+    f.close();
+
+    ifstream g("output.txt");
+
+    int i, j;
+    g >> i >> j;
+    g.close();
+    cout << "i is " << i << " and j is " << j << endl;
+>>>>>>> lab5
 }
