@@ -1,0 +1,4 @@
+1. the destructor gets called when the main function ends.
+2. yes because the class UltimateFrisbee has a pointer so you need to recreate what the pointer is pointing to.
+
+
