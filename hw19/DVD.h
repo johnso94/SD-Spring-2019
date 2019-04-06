@@ -67,5 +67,6 @@ class DVD{
     void setDirector(const char* t);
     DVD& operator=(const DVD &d);
     int operator++();
+    int operator++(int);
 };
 #endif //_DVD_

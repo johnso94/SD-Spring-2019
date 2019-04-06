@@ -63,3 +63,7 @@ int DVD::operator++(){
     id += 1;
     return id;
 }
+int DVD::operator++(int){
+    id += 1;
+    return id - 1;
+}

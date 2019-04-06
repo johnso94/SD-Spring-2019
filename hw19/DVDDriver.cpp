@@ -45,9 +45,8 @@ int main() {
     d1.display(); cout << endl; // [2. Shadowlands/Richard Attenborough]
     cout << ++d1 << endl; // 3
     d1.display(); cout << endl; // [3. Shadowlands/Richard Attenborough]
-/*
+
 cout << d1++ << endl; // 3
-d1.display(); cout << endl; // [4. Shadowlands/Richard
-Attenborough]
-*/
+d1.display(); cout << endl; // [4. Shadowlands/Richard ttenborough]
+
 }
