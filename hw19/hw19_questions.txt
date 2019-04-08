@@ -1,0 +1,1 @@
+1. No, it would not be because you would have to go through each element of the list store the next then put that back into each link in the linkedlist.
