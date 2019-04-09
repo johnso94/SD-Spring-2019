@@ -1,0 +1,2 @@
+1. No it would not because you would need to create several more linked lists rather than a single array.
+2. It allows you to save on writing code.
