@@ -24,3 +24,9 @@ Circle.o:  Circle.cpp Circle.h Shape.h
 
 CircleDriver.o: CircleDriver.cpp Circle.h Shape.h
 	g++ -g -Wall -std=c++11 -c CircleDriver.cpp
+
+ShapeDriver1: Shape.o Rectangle.o Circle.o ShapeDriver1.o
+	g++ -g -Wall -std=c++11 -o ShapeDriver1 Rectangle.o Circle.o ShapeDriver1.o Shape.o
+
+ShapeDriver2: Shape.o Rectangle.o Circle.o ShapeDriver2.o
+	g++ -g -Wall -std=c++11 -o ShapeDriver2 Rectangle.o Circle.o ShapeDriver2.o Shape.o
