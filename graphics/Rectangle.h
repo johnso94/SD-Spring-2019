@@ -22,6 +22,7 @@ class Rectangle: public Shape {
         is >> height;
     }
     void display();
+    void draw();
 };
 
 #endif

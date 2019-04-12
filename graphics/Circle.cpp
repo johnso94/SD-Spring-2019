@@ -7,3 +7,15 @@ void Circle::display(){
     Shape::display();
     cout << "   " << radius << endl;
 }
+void Circle::draw()
+{
+    append(yaml, "View_", id, ":\n");
+    append(yaml, "  style:\n");
+    append(yaml, "    position: absolute\n");
+    append(yaml, "    borderRadius: 50%\n");
+    append(yaml, "    left: ", position.x - radius, "\n");
+    append(yaml, "    top: ", position.y - radius, "\n");
+    append(yaml, "    width: ", 2*radius, "\n");
+    append(yaml, "    height: ", 2*radius, "\n");
+    send_color();
+}

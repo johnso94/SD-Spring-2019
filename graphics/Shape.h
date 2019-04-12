@@ -3,6 +3,8 @@
 
 #include"ColorPoint2.h"
 #include<iostream>
+#include"sd_fun.h"
+
 using namespace std;
 
 class Shape{
@@ -33,6 +35,7 @@ class Shape{
     Point2 getPosition();
     void setColor(Color c);
     void setPosition(int x, int y);
+    void send_color();
     void display();
 };
 

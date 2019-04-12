@@ -22,3 +22,10 @@ void Shape::display(){
     cout << position.x  << " ";
     cout << position.y  << " ";
 }
+void Shape::send_color()
+{
+append(yaml, "    backgroundColor: ");
+append(yaml, "rgb(", color.r);
+append(yaml, ",", color.g);
+append(yaml, ",", color.b, ")\n");
+}
