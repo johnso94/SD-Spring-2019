@@ -18,6 +18,7 @@ class Circle: public Shape {
         is >> radius;
     }
     void display();
+    void draw();
 };
 
 #endif
