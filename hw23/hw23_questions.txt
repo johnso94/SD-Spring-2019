@@ -1,0 +1,1 @@
+1) It allows us to use an array of pointers from the superclass and use functions from the superclass and subclasses and specifically get the subclasses funcitons.
