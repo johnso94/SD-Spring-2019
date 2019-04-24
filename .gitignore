@@ -1,0 +1,7 @@
+.vscode/
+a.out
+*.tar.gz*
+*.o
+!sd_fun.o
+!str_util.o
+!dataport.o
