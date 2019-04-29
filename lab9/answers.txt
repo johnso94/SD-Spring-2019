@@ -15,3 +15,12 @@
 33) We are taking a string and returning an int that we have defined to be returned whenever that string is put into price. we can also get the number of dictionary entries in price.
 35) I took the map and changed it to return characters which worked.
 37) p.first returns the value that is being changed, p.second return the value after its been changed, price.find price.find goes through the entire price and if it can't find anything, returns whatever price.end is, price.end is likely similar to or just a null byte, price.erase takes the socks entry and deletes it and price.clear gets rid of everything.
+40) The first several lines are just creating maps and strings except for the fname.c_str which is taking in data from the data.txt, the f>>t is putting the first entry into t, the f>>n is storing the number in n, and getline is taking the remaining term and putting into d.
+42) its taking the string stored at t and, for num, is making it convert to the int n in the map numb and, for dict, its making it convert to the string d in the map dict.
+44) it is couting what aardvark converts to in num and dict and then giving information about hte dictionary num.
+46) I changed it to give data about the dict instead.
+
+
+
+
+
