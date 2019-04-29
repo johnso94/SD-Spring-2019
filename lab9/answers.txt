@@ -1,0 +1,17 @@
+2) The auto says that w can become anything. In my experiment I tried to set w as a character string but it failed so once it becomes something its stuck as that.
+6)This test ilustrates that, although w2 is an auto, it can still act as a regular reference.
+8) This illustrates the basic fo loop and how it runs code multiple times with a changing i.
+10) It seems to be going through every element in arr, putting it into x and then couting x until the for loop has gone through arr.
+12) No because the int x isn't couted before the loop ends and it disapears.
+14) Yes, everything is now a 19 because the values of arr are all changed to 19.
+16) A range-based for loop goes through every element in an array and performs something on it. They follow the form of: for (type x : array_name){};
+18) The values are stored as a vector instead of an array.
+20) I changed the numbers to characters and it was still able to store them the same way an array could.
+22) the first two lines are running a ranged based for loop, the same as happened in B.cpp and couting the smae stuff from before. The last line is couting the size and implies that vectors are a class with a funciton that returns size.
+24) push_back() adds a value to the end, erase() deltes the value at a specific point, insert() puts a value in at a specific point, and clear() gets red of everything.
+27) this example illustrates that we have a class that saves a array of characters and can give us specific elements of that array and its size.
+29) I looked at whatever is in s[6] and it was empty meaning that the class is set up not to return uninitiallized data when uninitialized data is asked for.
+31) this means that its really easy to add characters to a string. the < is comparing the ascii values of the first character of each string.
+33) We are taking a string and returning an int that we have defined to be returned whenever that string is put into price. we can also get the number of dictionary entries in price.
+35) I took the map and changed it to return characters which worked.
+37) p.first returns the value that is being changed, p.second return the value after its been changed, price.find price.find goes through the entire price and if it can't find anything, returns whatever price.end is, price.end is likely similar to or just a null byte, price.erase takes the socks entry and deletes it and price.clear gets rid of everything.
