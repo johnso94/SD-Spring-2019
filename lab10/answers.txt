@@ -1,0 +1,20 @@
+
+			Q
+		       / \
+		      Z   L
+		     /    /\
+		    A    N  M
+		   / \     / \
+		  O  F    T   E
+If you are only given only the preorder and post order traversals then it is impossible to say with certainty because With ABC, BCA you can have both
+			A
+		       / \
+		      B   C
+and 
+			A
+		         \
+		          C
+		     	   \
+		            B
+as possible answers.
+The Algorithm would test if the item at the front of pre-order is the same as the last in post order, Whether the stuff to the left of the root matches that to the stuff in the right of the root and repeat this for each part of the subtree treating it like its own root.

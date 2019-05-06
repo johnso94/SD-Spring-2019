@@ -1,0 +1,17 @@
+A
+2) the height is 3.
+3) Arkansas.
+4) There are 3 leaf nodes.
+6) it compares the val and sees whether it is greater or less than the value its currently at.
+B
+8) the depth is 3. 
+Egypt, India, Japan, Germany, and Haiti were the leaves. 
+Canada was the root.
+Look at the array of nodes and add the new one at the end.
+Travel through every node in the linked list marking them down as it passes them.
+Travel through every node in the tree seeing if they match the value we're looking for.
+10) You take the index and add one to it.
+11) you take the index and add 2 to it.
+12) subtract one from it and then, if its even, subtract one from it.
+13) You would need to do a lot more work if you wanted to insert or remove an entry in the middle of the array.
+
