@@ -14,4 +14,9 @@ Travel through every node in the tree seeing if they match the value we're looki
 11) you take the index and add 2 to it.
 12) subtract one from it and then, if its even, subtract one from it.
 13) You would need to do a lot more work if you wanted to insert or remove an entry in the middle of the array.
+C
+14)32858144 32858176 0
+15)12693632 12693568 0 12693760 12693600 12693664 12693696 12693536 12693728
+17)0 13746272 13746432 13746240 13746208 13746400 13746368 13746336 13746304
+19)0 29454400 29454592 29454432 29454464 29454496 29454368 29454528 29454560
 
