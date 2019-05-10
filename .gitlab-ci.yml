@@ -1,5 +1,5 @@
-image: stodevx/cs251-toolkit:latest
-build:
-    stage: build
-    script:
-        - cs251tk --ci --skip-web-compile
+image: docker.cs.stolaf.edu:443/sd_managers/sd-backend:latest
+
+#Replace PROJECTNAME with the App Engine Project name
+gcloud:
+    script: "source /SD-backend/deploy.sh analog-carport-240219"
